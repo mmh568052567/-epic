@@ -1,0 +1,22 @@
+*.bat
+*.log
+*.lnk
+node_modules
+package-lock.json
+DeviceAuthGenerator.exe
+device_auths.json
+deviceAuths.json
+history.json
+data/*
+!data/config.example.json
+.egstore/*
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.idea
+.github
+# for python virtual env to test apprise
+venv

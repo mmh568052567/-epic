@@ -1,0 +1,32 @@
+# From gitignore (modified)
+*.bat
+*.log
+*.lnk
+node_modules
+package-lock.json
+DeviceAuthGenerator.exe
+**device_auths.json**
+history.json
+.egstore
+.vscode
+*.code-workspace
+.idea
+.github
+
+# Folders
+.git
+test
+venv
+
+# Other files
+*Dockerfile*
+*dockerignore*
+.gitignore
+LICENSE
+README*
+.eslintrc.json
+.editorconfig
+
+# Ignore all files in data folder except for the example config
+data
+!data/config.example.json
